@@ -14,8 +14,8 @@
 
 LiquidCrystal_I2C lcd = LiquidCrystal_I2C(0x27, 20, 4); //initialize LCD and address
  
-char ssid[] = "Dreamland";      // your network SSID (name)
-char pass[] = "Kirby1518";  // your network password
+char ssid[] = "CC Junior High School";      // your network SSID (name)
+char pass[] = "Kanisius64";  // your network password
 int status = WL_IDLE_STATUS;
 char mqtt_user[] = ""; 
 char mqtt_pass[] = "";
