@@ -4,7 +4,7 @@
 #include <DFRobot_ENS160.h> //Library ENS160 / AQI Sensor
 
 #define I2C_COMMUNICATION  //I2C communication. Comment out this line of code if you want to use SPI communication.
-
+ 
 #ifdef  I2C_COMMUNICATION
   DFRobot_ENS160_I2C ENS160(&Wire, /*I2CAddr*/ 0x53);
 #else
